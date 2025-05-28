@@ -16,7 +16,7 @@ class CreateNote extends StatefulWidget {
 class _CreateNoteState extends State<CreateNote> {
   final titleController = TextEditingController();
   final bodyController = TextEditingController();
-  final _formKey = GlobalKey<FormState>(); // Added form key for validation
+  final _formKey = GlobalKey<FormState>();
 
   @override
   void dispose() {
